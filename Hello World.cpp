@@ -1,5 +1,3 @@
-// Hello World.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 #include <string>
@@ -36,12 +34,12 @@ int main()
     int index;
     cin >> index;
 
-    cout << "\nNew character: " ;
+    cout << "New character: " ;
 
     char newChar;
     cin >> newChar;
     
-    cout << " ";
+    cout << "\n";
 
     if(index>= 0 && index < fullname.length()) {
         fullname[index] = newChar;
